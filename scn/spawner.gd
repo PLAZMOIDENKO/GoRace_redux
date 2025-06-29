@@ -1,5 +1,5 @@
 extends Node2D
-
+var interval = 1
 # Укажи путь к сцене, которую нужно спавнить
 @export var object_to_spawn: PackedScene
 

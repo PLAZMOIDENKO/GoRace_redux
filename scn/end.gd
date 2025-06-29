@@ -6,11 +6,16 @@ var scr = Global.score
 func _ready() -> void:
 	score.text = "score: " + str(Global.score)
 	max_score.text = "MAX SCORE: " + str(Global.MaxScore)
+	Global.CurrentScene = "End"
 
-
+func _process(delta: float) -> void:
+	pass
 func _on_restart_pressed() -> void:
 	get_tree().change_scene_to_file("res://scn/game.tscn")
 
 
 func _on_menu_pressed() -> void:
 	get_tree().change_scene_to_file("res://scn/menu.tscn")
+
+func _on_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://scn/game.tscn")

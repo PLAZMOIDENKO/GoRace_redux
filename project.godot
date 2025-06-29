@@ -13,6 +13,7 @@ config_version=5
 config/name="Go Race: REDUX"
 run/main_scene="uid://dgfs2oo16juu5"
 config/features=PackedStringArray("4.4", "Mobile")
+boot_splash/bg_color=Color(0, 0, 0, 1)
 config/icon="res://icon.svg"
 
 [autoload]
@@ -25,7 +26,9 @@ DB="*res://scn/DB.gd"
 
 window/size/viewport_width=1080
 window/size/viewport_height=2120
-window/stretch/mode="viewport"
+window/size/mode=3
+window/size/resizable=false
+window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 window/handheld/orientation=1
 
@@ -35,15 +38,33 @@ enabled=PackedStringArray()
 
 [gui]
 
+common/snap_controls_to_pixels=false
 theme/custom_font="uid://cl2mo202l31wl"
 
 [input_devices]
 
 pointing/emulate_touch_from_mouse=true
+pointing/emulate_mouse_from_touch=false
 
 [rendering]
 
-textures/canvas_textures/default_texture_filter=0
+textures/canvas_textures/default_texture_filter=3
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
+2d/android/enable_pan_and_scale_gestures=false
+2d/emulate_mouse_from_touch=true
+2d/emulate_touch_from_mouse=true
+2d/snap_controls_to_pixels=true
+2d/canvas_textures/default_texture_filter=0
+2d/size/mode=0
+2d/stretch/aspect="expand"
+2d/stretch/mode="viewport"
+2d/size/resizable=true
+2d/vsync/vsync_mode=1
+2d/size/initial_position_type=1
+2d/custom=""
+2d/defaults/default_clear_color=Color(0.3, 0.3, 0.3, 1)
+2d/fbx2gltf/enabled=true
+2d/size/borderless=false
+2d/bg_color=Color(0.14, 0.14, 0.14, 1)

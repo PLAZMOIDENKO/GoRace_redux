@@ -51,6 +51,7 @@ func _process(_delta: float) -> void:
 			MaxScore = score
 			player.MaxScore = MaxScore
 		DB._save()
+		player_hp = 1
 		get_tree().change_scene_to_file("res://scn/end.tscn")
 	
 #	print(player["MaxScore"], score)
