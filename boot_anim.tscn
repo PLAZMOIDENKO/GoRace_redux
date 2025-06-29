@@ -1,0 +1,281 @@
+[gd_scene load_steps=7 format=3 uid="uid://dgfs2oo16juu5"]
+
+[ext_resource type="Script" uid="uid://c5x4m5uayr33y" path="res://boot_anim.gd" id="1_o10a8"]
+
+[sub_resource type="Animation" id="Animation_o10a8"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/Label:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(150.005, 649)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimationPlayer/Label2:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(200.5, 717.04)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimationPlayer/Label:label_settings:font_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AnimationPlayer/Label2:label_settings:font_color")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("AnimationPlayer/CPUParticles2D:emitting")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("AnimationPlayer/CPUParticles2D:gravity")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 300)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("AnimationPlayer/ColorRect2:color")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_x6eln"]
+resource_name = "load"
+length = 2.0
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/Label:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(3.86374, 1),
+"update": 0,
+"values": [Vector2(0, 410), Vector2(0, 658)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimationPlayer/Label2:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(0.517636, 1),
+"update": 0,
+"values": [Vector2(0, 1225), Vector2(0, 767)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimationPlayer/Label:label_settings:font_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(0.499999, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AnimationPlayer/Label2:label_settings:font_color")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.15, 0.5),
+"transitions": PackedFloat32Array(6.72722, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("AnimationPlayer/CPUParticles2D:emitting")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("AnimationPlayer/CPUParticles2D:gravity")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.5, 0.7),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, -300), Vector2(0, 300)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("AnimationPlayer/ColorRect2:color")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(1.5, 2),
+"transitions": PackedFloat32Array(5.46414, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_qset3"]
+_data = {
+&"RESET": SubResource("Animation_o10a8"),
+&"load": SubResource("Animation_x6eln")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_c3kud"]
+font_size = 76
+font_color = Color(1, 1, 1, 0)
+
+[sub_resource type="LabelSettings" id="LabelSettings_fhh3o"]
+font_size = 125
+font_color = Color(1, 1, 1, 0)
+
+[node name="BootAnim" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_o10a8")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_qset3")
+}
+autoplay = "load"
+
+[node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="AnimationPlayer"]
+modulate = Color(0, 0.784314, 0.745098, 1)
+light_mask = 2
+visibility_layer = 2
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -389.995
+offset_top = -411.0
+offset_right = 690.005
+offset_bottom = -335.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "UPlay"
+label_settings = SubResource("LabelSettings_c3kud")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="AnimationPlayer"]
+modulate = Color(0.802969, 0.673509, 3.85046e-07, 1)
+light_mask = 2
+visibility_layer = 2
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -339.5
+offset_top = -342.96
+offset_right = 740.5
+offset_bottom = -170.96
+grow_horizontal = 2
+grow_vertical = 2
+text = "FORGE"
+label_settings = SubResource("LabelSettings_fhh3o")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="AnimationPlayer"]
+modulate = Color(0.603922, 0, 0, 1)
+position = Vector2(532, 752)
+rotation = -1.57079
+emitting = false
+amount = 50
+lifetime = 9.0
+one_shot = true
+speed_scale = 5.0
+explosiveness = 1.0
+gravity = Vector2(0, 300)
+initial_velocity_min = 117.24
+initial_velocity_max = 193.1
+angle_min = -720.0
+angle_max = 720.0
+scale_amount_min = 7.9
+scale_amount_max = 7.9
+
+[node name="ColorRect2" type="ColorRect" parent="AnimationPlayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

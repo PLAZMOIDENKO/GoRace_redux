@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3h8hxqifgtog"]
+
+[ext_resource type="Script" uid="uid://bdxvmeo5iquac" path="res://GameRule.gd" id="1_vg60f"]
+
+[node name="GameRule" type="Node"]
+script = ExtResource("1_vg60f")
+
+[node name="AddScoreTimer" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[connection signal="timeout" from="AddScoreTimer" to="." method="_on_AddScoreTime_timeout"]
